@@ -17,12 +17,24 @@ header form .number {
 
 .row {
   background-color: var(--border);
+  width: 20rem;
   padding: 0 1.5rem;
   margin-bottom: 0.5rem;
   display: flex;
   flex-flow: row nowrap;
-  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 6px;
+}
+
+.row button {
+  background-color: brown;
+}
+
+.descripcion {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
 }
 
 .cantidad {
